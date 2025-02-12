@@ -75,6 +75,8 @@ public class JobCard extends UiPart<Region> {
         int mins = job.getDuration().toMinutesPart();
         String mM = mins == 0 ? "" : (mins + "m");
 
+        int one = 1;
+
         // assign values
         this.job = job;
         idx.setText(displayedIndex + "");
